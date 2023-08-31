@@ -182,10 +182,30 @@
             <input class="fil" type="text" name="PLAYER 5 DISCORD & GAME ID" placeholder="(EX: rebel_esports / Ghost #1234)" required>
 
             <label for="naem">PLAYER 6 DISCORD & GAME ID</label>                                                                  
-            <input class="fil" type="text" name="PLAYER 6 DISCORD & GAME ID" placeholder="(optional)" optional>
+            <input class="fil" type="text" name="PLAYER 6 DISCORD & GAME ID" placeholder="(EX: rebel_esports / Ghost #1234)" required>
 
             <label for="naem">PLAYER 7 DISCORD & GAME ID</label>                                                                  
             <input class="fil" type="text" name="PLAYER 7 DISCORD & GAME ID" placeholder="(optional)" optional>
+
+
+            <!DOCTYPE html>
+        
+        <label for="applicationNumber">REGISTRATION NUMBER</label>
+        <input type="text" id="applicationNumber" name="applicationNumber" readonly><br><br>
+
+    <script>
+        function generateRandomSixDigitNumber() {
+            return Math.floor(Math.random() * 900000) + 100000;
+        }
+
+        // Generate a new random six-digit number on page load
+        window.onload = function() {
+            var randomApplicationNumber = 'RE' + generateRandomSixDigitNumber();
+            document.getElementById('applicationNumber').value = randomApplicationNumber;
+        };
+    </script>
+
+
             
             <button class="click">SUBMIT &#10132;</button>
             
@@ -229,7 +249,7 @@
 
 
 		<!-- hero area start -->
-		<div class="hero-area slider-1" id="slider-area">
+		<div class="hero-area slider-4" id="slider-area">
 			<div class="slider">
 				<div class="container">
 					<div class="row">
@@ -257,7 +277,7 @@
 		</div>
 		<!-- hero area end -->
 
-        <img src="https://cdn.discordapp.com/attachments/1115943974994190376/1143187244233019452/9.png" alt="Flowers in Chania" width="5000" height="550">
+        <img src="https://cdn.discordapp.com/attachments/1047073254105427998/1144232737683816569/Untitled-2.png" alt="Flowers in Chania" width="5000" height="550">
 
 
 
